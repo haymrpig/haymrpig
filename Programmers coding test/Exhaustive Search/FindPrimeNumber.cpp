@@ -12,7 +12,6 @@ using namespace std;
     4. map에 저장된 string을 int로 변경 후, prime number인지 확인 -> 맞을 경우 answer+1
     
     < 수정해야할 사항 >
-    - prime number 찾는 알고리즘 구현을 비효율적으로 for문을 두번 돌렸기에 수정 필요
     - 조합을 구할 때 DFS보다 next_permutation 이용하면 편하게 구현 가능하기에 수정 필요
 */
 void DFS(vector<char> v, vector<int>& visited,int num, int depth, string s, map<string, string>& m){
